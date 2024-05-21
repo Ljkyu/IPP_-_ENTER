@@ -1,4 +1,0 @@
-# IPP_ENTER
-
-
-TESTING
