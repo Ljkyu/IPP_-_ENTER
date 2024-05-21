@@ -31,7 +31,7 @@ body {
     text-decoration: none;
 }
 .navbar a.right {
-    float: right
+    float: right;
 }
 .navbar a:hover {
     background-color: #ddd;
