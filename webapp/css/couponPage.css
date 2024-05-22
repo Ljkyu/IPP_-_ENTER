@@ -1,0 +1,65 @@
+@charset "EUC-KR";
+
+.navbar {
+	display: flex;
+	padding: 10px;
+	border-bottom: 2px solid black;
+}
+
+.navbar a, .pageName {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	padding: 8px 16px;
+}
+
+.coupon_section {
+	display: flex;
+	margin: 50px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.coupon {
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 20px;
+	margin-bottom:50px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	align-items: center; /* 자식 요소들을 중앙에 정렬 */
+	gap: 10px; /* 요소들 간의 간격 설정 */
+}
+
+.coupon_img {
+	width: 200px;
+	height: 180px;
+	background-color: gray;
+	margin: 10px 280px 10px 70px;
+}
+
+.inline_content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	 flex-wrap: wrap;
+	 width: 200px;
+	 margin-right: 150px;
+}
+
+.persent {
+	color: orange;
+	font-size: 30pt;
+	font-weight: bold;
+	margin:0px
+}
+
+span {
+	display: block; color : black;
+	font-size: 30pt;
+	font-weight: 200;
+	color: black;
+}
