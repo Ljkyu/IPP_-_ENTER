@@ -1,0 +1,84 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.navbar a.signup {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.usertag {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.usertag h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.usertag label {
+    font-weight: bold;
+}
+
+.usertag input[type="email"],
+.usertag input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.usertag input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.usertag input[type="submit"]:hover {
+    background-color: #555;
+}

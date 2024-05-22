@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>회원가입</title>
+<link rel="stylesheet" href="./css/SignUp.css">
+</head>
+<body>
+<div class="header">
+    <h1>회원가입 페이지</h1>
+</div>
+<div class="navbar">
+    <a href="MainPage.html">홈</a>
+    <a href="login.html" class="right">로그인</a>
+</div>
+<br><br>
+<div class="usertag">
+    <form method="get" action="SignUp.jsp">
+        <h2 align="center">회원가입</h2>
+        <label for="reqname">이름</label><br>
+        <input type="text" id="reqname" name="reqname" placeholder="성함" required><br><br>
+        <label for="reqemail">이메일</label><br>
+        <input type="email" id="reqemail" name="reqemail" placeholder="이메일" required><br><br>
+        <label for="reqnumber">휴대폰 번호</label><br>
+        <input type="tel" id="reqnumber" name="reqnumber" placeholder="휴대폰 번호" required><br><br>
+        <label for="reqpass">비밀번호</label><br>
+        <input type="password" id="reqpass" name="reqpass" placeholder="비밀번호" required><br><br>
+        <input type="submit" value="회원가입" title="회원가입합니다.">
+    </form>
+</div>
+</body>
+</html>

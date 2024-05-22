@@ -1,0 +1,174 @@
+@charset "EUC-KR";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.navbar-left, .navbar-center, .navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-center {
+    flex: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar-center a {
+    margin: 0 10px;
+}
+
+.navbar-right {
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.logout {
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+
+/* section1 */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    position: relative;
+}
+
+.section1 > div {
+    width: 60%;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.sec1 {
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.section1_top, .section1_mid, .section1_bottom {
+    display: flex;
+}
+
+.section1 a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.section1_top {
+    position: relative;
+}
+
+.section1_top .grade_icon {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.user_name {
+    font-size: 20pt;
+    position: relative;
+    z-index: 1;
+    font-weight: 1000;
+}
+
+
+
+.section1 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.section1_mid{ 
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    gap: 160px;
+}
+
+
+.section1 .order_icon div,.wish_icon div{
+    background-color: #ccc;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px; /* 아이콘과 텍스트 간 간격 */
+}
+
+.section1_top .order_icon, .section1_top .wish_icon {
+    margin-left: 50px; /* 두 요소 사이에 50px 간격 추가 */
+}
+
+.section1_bottom {
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+/* section2 */
+.section2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
+    border: 2px solid black;
+    border-radius: 40px;
+    gap: 160px;
+}
+
+.section2 a {
+    text-align: center; /* 텍스트를 중앙에 정렬 */
+}
+
+
+.coupon_icon div, .point_icon div{
+    background-color: #ccc;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px; /* 아이콘과 텍스트 간 간격 */
+}
+
+.coupon_icon{
+    margin-left: 10px;
+}
+
+
+
+
+
