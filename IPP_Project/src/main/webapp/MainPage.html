@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <title>메인 페이지</title>
     <link rel="stylesheet" type="text/css" href="./css/MainPage.css">
+    <style>
+    .product-box form{
+	width: 100%;
+}
+
+.product-box button {
+    width: 80%; /* 버튼 너비 조정 */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+    </style>
 </head>
 <body>
     <div class="navbar">
         <img src="your-image-url.jpg" alt="Your Image">
         <a href="#">메인화면</a>
         <a href="chargePage.html">포인트 충전</a>
-        <a href="myPage.html">마이페이지</a>
+        <a href="myPage.jsp">마이페이지</a>
     </div>
     <div class="content-box">
         <h2>쇼핑몰 리스트</h2>
@@ -31,8 +47,14 @@
             <h3>상품 A</h3>
             <p>가격: 10,000원</p>
             <div class="btn-group">
-                <button>구매</button>
-                <button>찜</button>
+                <form action="./DB/orders.jsp" method="post">
+                    <input type="hidden" name="productID" value="1">
+                    <button type="submit">구매</button>
+                </form>
+                <form action="./DB/wishlist.jsp" method="post">
+                    <input type="hidden" name="productID" value="1">
+                    <button type="submit">찜</button>
+                </form>
             </div>
         </div>
         <div class="product-box">
@@ -40,8 +62,14 @@
             <h3>상품 B</h3>
             <p>가격: 20,000원</p>
             <div class="btn-group">
-                <button>구매</button>
-                <button>찜</button>
+                <form action="./DB/orders.jsp" method="post">
+                    <input type="hidden" name="productID" value="2">
+                    <button type="submit">구매</button>
+                </form>
+                <form action="./DB/wishlist.jsp" method="post">
+                    <input type="hidden" name="productID" value="2">
+                    <button type="submit">찜</button>
+                </form>
             </div>
         </div>
         <div class="product-box">
@@ -49,8 +77,14 @@
             <h3>상품 C</h3>
             <p>가격: 30,000원</p>
             <div class="btn-group">
-                <button>구매</button>
-                <button>찜</button>
+                <form action="./DB/orders.jsp" method="post">
+                    <input type="hidden" name="productID" value="3">
+                    <button type="submit">구매</button>
+                </form>
+                <form action="./DB/wishlist.jsp" method="post">
+                    <input type="hidden" name="productID" value="3">
+                    <button type="submit">찜</button>
+                </form>
             </div>
         </div>
         <div class="product-box">
@@ -58,8 +92,14 @@
             <h3>상품 D</h3>
             <p>가격: 40,000원</p>
             <div class="btn-group">
-                <button>구매</button>
-                <button>찜</button>
+                <form action="./DB/orders.jsp" method="post">
+                    <input type="hidden" name="productID" value="4">
+                    <button type="submit">구매</button>
+                </form>
+                <form action="./DB/wishlist.jsp" method="post">
+                    <input type="hidden" name="productID" value="4">
+                    <button type="submit">찜</button>
+                </form>
             </div>
         </div>
     </div>
