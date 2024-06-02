@@ -129,6 +129,17 @@ body {
     margin-bottom: 5px; /* 아이콘과 텍스트 간 간격 */
 }
 
+.icon{
+	background-color: #ccc;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px; /* 아이콘과 텍스트 간 간격 */
+}
+
 .section1_top .order_icon, .section1_top .wish_icon {
     margin-left: 50px; /* 두 요소 사이에 50px 간격 추가 */
 }
@@ -137,6 +148,8 @@ body {
     justify-content: center;
     border-top: 1px solid black;
 }
+
+
 
 /* section2 */
 .section2 {
